@@ -1,2 +1,3 @@
 # one_dimensional_LfD
-Learning from demo using kernel based density estimation for model training and particle filter based predictive control
+Learning from demo using kernel based density estimation for model training and particle filter based predictive control. 
+The one_dim_particle_filter.m is the main file, The training data can be changed by updating the number of runs of the demonstration (num_of_exp), the measurements recorded in each run (num_data_pts). The parameter for the model training can be varied by changing the associated variable (l). Further, the particle filter used for imitation control can be changed by varying the number of particles (N), number of sample point for importance sampling (Q) and the radius that defines the sample range (mag).
